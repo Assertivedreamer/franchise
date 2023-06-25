@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>LIFEHACK</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-md bg-primary navbar-dark fixed-top">
+  <a class="navbar-brand text-center" href="#">LIFEHACK</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html"><i class="fa fa-home">HOME</i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">ABOUT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">CONTACT US</a>
+      </li> 
+		 <li class="nav-item">
+        <a class="nav-link" href="#"></a>
+      </li> 
+		
+    </ul><ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="signup.html">sign up</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="login.html">log in</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"></a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+
+
+</br></br></br>
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+  
+  </div>
+  <div class="row">
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">state</label>
+        <select id="country" name="country">
+          <option value="australia">ANDRA PRADESH</option>
+
+          <option value="usa">TELANGANA</option>
+        </select>
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+<div class="container-fluid">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.55224770054!2d77.49085421321637!3d12.954294595524555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1630564497672!5m2!1sen!2sin" width="100%" height="800px" style="border:0;"></iframe>
+</div>
+<div class="container">
+<div class="row">
+		<div class="col-sm-6 well">
+			<h3>follow us</h3>
+			<a href=""><i class="fa fa-facebook" style='font-size:24px'></i> facebook</a></br>
+			<a href=""><i class="fa fa-instagram" style='font-size:24px'></i>instagram</a></br>
+			<a href=""><i class="fa fa-youtube" style='font-size:24px'>youtube</i></a>
+		</div>
+		
+		<div class="col-sm-6 well">
+			<h3>contact us</h3>
+			<a href=""><i class="fa fa-mobile" style='font-size:24px'></i>+91 9005432124</a></br>
+			<a href=""><i class="material-icons" style="font-size:24px"></i>lifehack@gmail.com</a></br>
+			<a href=""><i class="fa fa-whatsapp" style='font-size:24px'></i>+91 9005432124</a></br>
+		</div>
+		
+	</div>
+</div>
+
+
+
+<div class="container-fluid justify-content-center px-0 bg-primary ">
+   
+    <footer>
+        <div class="row justify-content-around mb-0 pt-5 mx-4">
+            <div class="col-xl-2 col-md-4 order-xl-1 order-4 mr-xl-0 my-auto">
+                <ul class="list-unstyled mt-md-3 mt-5">
+                    <li>Social Media</li>
+                    <li class="social"> <span> <i class="fa fa-facebook" aria-hidden="true"></i></span> <span> <i class="fa fa-instagram" aria-hidden="true"></i> </span> <span> <i class="fa fa-twitter" aria-hidden="true"></i> </span> </li>
+                </ul>
+                <ul class="list-unstyled my-xl-4 my-md-3">
+                    <li>Copyright</li>
+                    <li>&#9400;  2019</li>
+                </ul>
+            </div>
+            <div class="col-xl-2 col-md-3 pt-4 order-1">
+                <ul class="list-unstyled">
+                    <li class="mt-md-0 mt-4">Our Solution</li>
+                    <li>Intergrated Security </li>
+                    <li>Core Features</li>
+                    <li>Product Features</li>
+                    <li>Pricing</li>
+                </ul>
+            </div>
+            <div class="col-xl-2 col-md-3 pt-4 order-2">
+                <ul class="list-unstyled">
+                    <li class="mt-md-0 mt-4">Your needs</li>
+                    <li>Intergrated Security </li>
+                    <li>Core Features</li>
+                    <li>Product Features</li>
+                    <li>Pricing</li>
+                </ul>
+            </div>
+            <div class="col-xl-auto col-md-3 pt-4 my-sm-0 order-md-3 order-sm-1 ">
+                <ul class="list-unstyled">
+                    <li class="mt-md-0 mt-4">Offer</li>
+                    <li>Intergrated Security </li>
+                    <li>Core Features</li>
+                    <li>Product Features</li>
+                    <li>Pricing</li>
+                </ul>
+            </div>
+            <div class="col-xl-auto col-md-6 col-12 pt-4 my-sm-0 order-6 ">
+                <div class="form-group "><label for="email" class="mb-3"><b>Subscribe to our site</b></label><input type="email" class="form-control form-control-lg" placeholder="Enter email" id="email"></div><button type="button" class="btn btn-primary btn-lg btn-block my-2 Subscribe mt-4 mb-3">Subscribe</button>
+            </div>
+        </div>
+       
+    </footer>
+</div>
+
+
+</body>
+</html>
+
+
